@@ -1,0 +1,8 @@
+.wrapper{
+    overflow:hidden;
+    height:84vh;
+    left: 3vh;
+    top: 20px;
+    width:80%;
+    position:absolute;
+}

@@ -1,0 +1,83 @@
+
+.ui .active .inverted .dimmer{
+    opacity: 1;
+    backgroundColor:"rgba(255, 255, 255, 0.5)"
+}
+
+.column-2nd {
+    top: 30px;
+    position: absolute;
+}
+
+
+
+.upperLogo {
+    position:absolute;
+    width: 200px;
+    height: 90px;
+    bottom:170px;
+    right:10px;
+}
+
+.downLogo {
+    position:absolute;
+    width: 200px;
+    height: 90px;
+    bottom:70px;
+    right:10px;
+}
+
+.WPILogo {
+    opacity: 0.5;
+    max-width: 100%;
+    max-weight: 100%;
+    /*background-position:bottom left;*/
+}
+.pfizerLogo {
+    position:absolute;
+    opacity: 0.5;
+    max-width: 100%;
+    max-weight: 100%;
+    /*background-position:bottom right;*/
+}
+
+
+.simfile {
+    top: 45px;
+    position: relative;
+}
+
+.simfile-button {
+    position: relative;
+    top: 50px;
+}
+
+.median .ui .button{
+    width:360px;
+}
+
+.Summary1 {
+    position: relative;
+    top: 0px;
+    width:90%;
+    margin: 0 auto;
+    /*background-color: aliceblue;*/
+}
+
+.Summary2 {
+    position: relative;
+    top: 10px;
+    width:90%;
+    margin: 0 auto;
+}
+
+.Summary3 {
+    position: relative;
+    top: 30px;
+}
+
+.Summary4 {
+    position: relative;
+    top: 60px;
+}
+
