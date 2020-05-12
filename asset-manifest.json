@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e2fffae.chunk.css",
+    "main.js": "/static/js/main.fa21308e.chunk.js",
+    "main.js.map": "/static/js/main.fa21308e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a72ea298.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a72ea298.js.map",
+    "static/js/2.268033ed.chunk.js": "/static/js/2.268033ed.chunk.js",
+    "static/js/2.268033ed.chunk.js.map": "/static/js/2.268033ed.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ceeac1860aa07e4957303f5d1b778d25.js": "/precache-manifest.ceeac1860aa07e4957303f5d1b778d25.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2e2fffae.chunk.css.map": "/static/css/main.2e2fffae.chunk.css.map",
+    "static/js/2.268033ed.chunk.js.LICENSE.txt": "/static/js/2.268033ed.chunk.js.LICENSE.txt",
+    "static/media/WPILogo.png": "/static/media/WPILogo.1e17c32b.png",
+    "static/media/pfizer2.png": "/static/media/pfizer2.b97c062c.png",
+    "static/media/pfizer3.png": "/static/media/pfizer3.8c8dc313.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a72ea298.js",
+    "static/js/2.268033ed.chunk.js",
+    "static/css/main.2e2fffae.chunk.css",
+    "static/js/main.fa21308e.chunk.js"
+  ]
+}
