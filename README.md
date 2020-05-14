@@ -2,8 +2,9 @@
 
 ## Run in your environment instruction
 
-Attention: It may need you to upgrade you Homebrew before running following shell script!
+Attention: We have only success to rerun the code using macOS. It may need you to upgrade you Homebrew before running following shell script!
 
+If you are using windows, plase using bash on windows and install homebrew from offical website then do the following as well.
 ```
 git clone https://github.com/Cuilie/pfizer_2020Spring.git
 cd ./pfizer_2020Spring
