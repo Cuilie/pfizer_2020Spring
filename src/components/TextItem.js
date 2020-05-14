@@ -1,8 +1,6 @@
 import React from 'react';
 
 const TextItem = (props) => {
-    // console.log(props);
-    // console.log(props.index === props.clickStateId);
     const itemIdx = "index"+ props.index;
     let  boldTextStyle = {
         color:"blue"

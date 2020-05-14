@@ -6,8 +6,6 @@ import Plot from 'react-plotly.js';
 
 class SimFile extends React.Component {
 
-
-
     onClick = (event) => {
         this.props.onFileSelect(event.points[0].y);
     };
@@ -57,7 +55,6 @@ class SimFile extends React.Component {
         }
 
         const plotdata = this.dataPreprocess(simData);
-        console.log(this.props.simButtonType);
 
 
 

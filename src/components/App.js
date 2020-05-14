@@ -1,19 +1,21 @@
-// import youtube from '../apis/youtube';
+// Import the components
 import React from 'react';
 import SearchBar from './SearchBar';
 import ProceduresList from "./ProceduresList";
 import ProceduresDetail from "./ProceduresDetail";
 import TextDetail from "./TextDetail";
-import datatotal from "../data/ensemble_data.json";
 import TempDistribution from "./TempDistribution";
+import OriginalText from "./OriginalText";
 import SimFile from "./simFile";
-import "./App.css";
+
+// import resource
+import datatotal from "../data/ensemble_data.json";
 import Background from '../image/pfizer2.png';
 import WPILogo from '../image/WPILogo.png';
 import pfizerLogo from '../image/pfizer3.png'
 
-import OriginalText from "./OriginalText";
-
+// import css style
+import "./App.css";
 
 
 class App extends React.Component {
@@ -34,7 +36,6 @@ class App extends React.Component {
 
     onTermSubmit = async (fileName) => {
         // acye request!
-        console.log(this.state)
         const filesInfo = datatotal.fileInfo;
         this.setState({
             infos:filesInfo,
@@ -71,7 +72,9 @@ class App extends React.Component {
 
     render(){
         let loaderStyle ={
-            height:"30vh"
+            height:"30vh",
+            // opacity: "0.1",
+            backgroundColor:"rgba(255, 255, 255, 0.5)"
         };
 
         let sectionStyle = {

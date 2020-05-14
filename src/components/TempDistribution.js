@@ -5,20 +5,6 @@ import Plot from 'react-plotly.js';
 
 
 class TempDistribution extends React.Component {
-
-
-
-    onClick = (event) => {
-        // event.preventDefault();
-        console.log(event)
-        console.log(event.points[0].x);
-        console.log(event.points[0].y);
-    };
-
-    onHover = (event) => {
-        console.log(event);
-    };
-
     state = {data : [{
             x: [],
             y:  [],
@@ -28,14 +14,8 @@ class TempDistribution extends React.Component {
             marker: {color: 'red'},
         }]};
 
-
-
-
-
     render(){
-
         const tempsamples = this.props.tempsamples;
-        // console.log(tempsamples);
         if (!tempsamples){
             return <div>Loading...</div>}
 
