@@ -2,7 +2,7 @@
 
 ## Run in your environment instruction
 
-Attention: It may need you to upgrade you Homebrew before running above shell script!
+Attention: It may need you to upgrade you Homebrew before running following shell script!
 
 ```
 git clone https://github.com/Cuilie/pfizer_2020Spring.git
