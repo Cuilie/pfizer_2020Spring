@@ -16,3 +16,4 @@ npm start
 ```
 
 ## Have fun!
+Demo is published at https://cuilie.github.io/pfizer_2020Spring/
